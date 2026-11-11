@@ -1,0 +1,76 @@
+.navigation li {display: inline;
+padding: 10px;
+font-family: "Georgia";
+font-size: 15px;
+letter-spacing: 0.000001px;}
+
+body {padding-left: 20px;}
+
+html
+{background-color: #F0F8FF}
+
+body, h1, h2, h3, p
+{font-family: "Georgia";}
+
+p {font-size: 15px;
+ line-height: 1.4em;}
+
+ .key-terms {font-size: 15px;
+    line-height: 1.4em;}
+
+.navlink {color: #4B7056;
+text-decoration: none;
+display: inline;}
+
+#current {background-color: #4B7056;
+border-radius: 10px 10px 10px 10px;
+padding: 7px;
+color: white;}
+
+#homepageimg {
+  width: 300px;
+  height: 360px;}
+
+#caption {display: inline-block;
+  width: 45%;
+  vertical-align: top;
+   margin-left: 10px;}
+
+.again {font-family: "Georgia";
+   font-size: 15px;
+   background-color: #4B7056;
+   border-radius: 10px 10px 10px 10px;
+   color: white;
+   padding: 7px;
+   text-decoration: none;}
+
+
+.legend {margin-top: 10px;
+      margin-bottom: 20px;}
+
+.legend-box {display: inline-block;
+width: 15px;
+height: 15px;
+margin-left: 10px;
+margin-right: 4px;
+vertical-align: middle;}
+
+.A {background-color: #6495ED;}
+
+.T {background-color: #483D8B;}
+
+.C {background-color: #7FFF00;}
+
+.G {background-color: #FF4500;}
+
+.container {width: 100%;
+overflow: auto;}
+
+.left, .right {width: 45%;
+float: left;
+margin: 10px;
+padding: 15px;
+background-color: white;
+border-radius: 10px;
+border: 1px solid #d0d0d0;
+box-shadow: 2px 2px 6px lightgray;}

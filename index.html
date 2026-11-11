@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Plant DNA Analysis Tool</title>
+    <link href="finalproject.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+    <ul class="navigation">
+      <li><a href="index.html" id="current" class="navlink">Home</a></li>
+      <li><a href="finalproject.py" class="navlink">DNA Analysis</a></li>
+    </ul>
+    </nav>
+    <h1>Plant DNA Analysis Tool</h1>
+
+    <div class="container">
+    <div class="left">
+    <h2> Project Overview </h2>
+    <p>
+    This project will analyze partial coding sequences of the
+     ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene
+      of various plant species in the <i>Lamiaceae</i> family. It uses DNA
+       sequences from the NCBI GenBank to compute and display biological
+        statistics including number of base pairs, nucleotide composition
+        (visualized with matplotlib pie chart), GC content percentage, codon
+         signal analysis, DNA barcode visualization, and similarity percentages
+         between the plants' sequences. The Python program will generate an HTML webpage with
+         forms where a user can choose the plant to analyze and the plant to
+          compare it to. Additionally, there's an index page containing a description of the
+          project and relevant biological concepts and an image of the
+          plants that the user could analyze.
+    </p>
+    <p>
+   Caterina Simi, period 9. Skills: 32, 31, 26, 12, 11, 7
+    </p>
+    </div>
+
+    <div class="right">
+    <h2>DNA and Genetic Information</h2>
+    <p>
+    <b>DNA</b> (deoxyribonucleic acid) is the molecule that stores genetic information in
+      living organisms. It is made up of four nucleotide bases: <b>adenine</b> (A), <b>thymine</b>
+      (T), <b>cytosine</b>(C), and <b>guanine</b>(G). On the complementary strand, A pairs with T and C pairs with G.
+      The order of these bases encodes
+      instructions for building proteins and regulating biological functions. DNA
+      sequences are read in segments called <b>genes</b>, which are transcribed and translated
+      into proteins that determine traits and biological processes.
+    </p>
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="left">
+
+    <h2>Key Terms</h2>
+    <ul class="key-terms">
+      <li><b>GC Content:</b> Percentage of guanine (G) and cytosine (C) bases in DNA. Regions with higher
+        GC content are generally more thermally stable because there are 3 hydrogen bonds between G and C, whereas
+        A and T only have 2 hydrogen bonds between them.</li>
+        <li><b>Codon:</b> A sequence of three DNA bases that encodes an amino acid or signals to start or
+          stop protein synthesis</li>
+        <li><b>Sequence Similarity:</b> How many matching bases two DNA strands share</li>
+    </ul>
+    </div>
+
+    <div class="right">
+
+    <h2>About the rbcL gene</h2>
+    <p>
+      rbcL is a gene commonly used for distinguishing
+      plants at the family and genus level. This gene encodes the large subunit
+      of <b>RuBisCO</b> (ribulose-1,5-bisphosphate carboxylase/oxygenase), an enzyme
+      crucial for <b>carbon fixation</b> in photosynthesis. RuBisCO binds the carbon dioxide to a 5 carbon sugar, <b>RuBP</b>, which is then used
+      in the <b>Calvin Cycle</b> to synthesize carbohydrates.
+    </p>
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="left">
+
+  <p>
+    <b>Note:</b> the DNA sequence for bergamot contains an unidentified base, represented with the letter N.
+    It was not removed from the sequence and therefore contributes to the discrepancy between the GC Content and the sum of the individual
+    percentages of G and C.
+    </p>
+
+    <p id="caption">
+    Herb species from the <i>Lamiaceae</i> (mint) family available in this DNA
+    analysis tool. Left to right from top to bottom: mint, basil, lavender, rosemary, sage, catnip, bergamot (aka bee balm), lemon balm, oregano.
+  </p>
+
+    <img id="homepageimg" src="homepage.img.png" width=400 height=360 alt="herbs">
+
+    </div>
+    </div>
+
+</body>
+</html>
