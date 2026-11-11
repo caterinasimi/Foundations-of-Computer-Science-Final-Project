@@ -1,1 +1,3 @@
 # Foundations-of-Computer-Science-Final-Project
+
+This project will analyze partial coding sequences of the ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene of various plant species in the mint family. It uses DNA sequences from the NCBI GenBank to compute and display biological statistics including number of base pairs, nucleotide composition (visualized with matplotlib pie chart), GC content percentage, codon signal analysis, DNA barcode visualization, and similarity percentages between the plants' sequences. The Python program will generate an HTML webpage with forms where a user can choose the plant to analyze and the plant to compare it to. Additionally, there is an index page describing the project and relevant biological concepts.
